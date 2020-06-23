@@ -1,0 +1,85 @@
+﻿
+
+
+
+.modalBox {  background:#fff;}
+
+.modalShadow { position:fixed; top:20%; left:5%!important; z-index: 300;  display: none; height:460px; background:#fff;
+
+ width:90%!important;     border: solid 4px #ccc; }
+ 
+ 
+ 
+ 
+ .modalShadow2 { position:fixed; top:20%; right:20px!important; height:500px; z-index: 300;  display: none; height:460px; background:#fff;
+
+ width:80%!important;     border: solid 4px #ccc; overflow-y:scroll; }
+ 
+
+
+
+
+.modalMessage {  }
+
+
+.modalControl { text-align: center; margin: 0px 15px 15px 0px; }
+.modalButton { border: solid 1px #9999bb; margin: 0px 5px 0px 5px; }
+
+.modalBG { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9; background:url(../images/fancybox_overlay.png); display: none; }
+
+
+*html .modalBG, .modalIShim { position: absolute; left: expression(eval(document.documentElement.scrollLeft)); top: expression(eval(document.documentElement.scrollTop)); width: expression(document.documentElement.clientWidth +  "px" ); height: expression(document.documentElement.clientHeight +  "px" ); }
+
+*html .modalIShim { filter: alpha(opacity=0); z-index: 8; }
+
+*html .modalShadow { position: absolute; }
+
+
+
+  @media (max-width: 480px) 
+  { 
+ 
+
+ 
+ .modalBox {  background:#fff;}
+
+.modalShadow { position:fixed; left:0px!important; top:20%; z-index: 300;  display:none; height:460px; background:#fff;
+
+ width:100%!important;  border: solid 4px #ccc; }
+ 
+
+ 
+  .modalShadow2 { position:fixed; top:20%; left:0%!important; height:500px; z-index: 300;  display: none; height:460px; background:#fff;
+
+ width:100%!important;     border: solid 4px #ccc; overflow-y:scroll; }
+ 
+ 
+
+
+  }
+  
+  
+ 
+  
+  
+   @media (min-width: 1280px) 
+  { 
+ 
+
+ 
+.modalBox {  background:#fff;}
+
+.modalShadow { position:fixed; top:20%; left:16%!important; z-index: 300;  display: none; height:460px; background:#fff;
+
+ width:70%!important;     border: solid 4px #ccc; }
+ 
+
+
+  }
+  
+  
+
+  
+
+
+ 

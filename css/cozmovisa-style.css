@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+
+.headtp { color:Blue; color:#FFFFFF; }
+
+	
+H2 {
+/*font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    line-height: 19px; color:#333;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 30px; */
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+SPAN {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; text-decoration:none; color:#3A3ADD;
+}
+
+
+A:hover { text-decoration:underline;
+	 
+}
+
+
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; BORDER-TOP: 0px; 	    BORDER-RIGHT: 0px
+}
+IMG {
+	LINE-HEIGHT: 0; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-SIZE: 0px
+}
+.float_L {
+	WIDTH: auto; FLOAT: left
+}
+.float_R {
+	WIDTH: auto; FLOAT: right
+}
+
+.clear {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+}
+
+
+BODY { padding:0px; margin:0px;  text-decoration:none; text-transform:none; color:#333;  background:#FFFFFF; font:12px Arial,Helvetica,sans-serif;    
+}
+
+
+
+#main_container {  height:auto; margin:auto; width:996px; position:relative      }
+
+
+a.fflink { color:#fff; margin-left:5px; font-weight:normal }
+
+.fflinknor { color:#fff; margin-left:5px; font-weight:normal }
+
+
+#middle-container { height:521px; *height:521px; border-bottom:none; overflow:scroll ; 
+
+
+
+
+        
+ border-left: solid 1px #CCCCCC; border-right: solid 1px #CCCCCC; border-top:none ; padding:10px; padding-top:0px; }
+ 
+ 
+ :root #middle-container  {
+  height: 502px\9;  
+}
+
+
+
+.fare_rule_block { position: absolute; width: 60%; font-size: 14px; top:0px;  margin-left:auto; margin-right:auto; 
+                   
+                    display: none;border: solid 6px #ccc; left:0px; right:0px;  }
+                   
+ 
+
+
+.fare_rule_block div.head_bg { float: left; padding: 0px 5px 6px 5px; margin: 0px; width: 560px;  font-weight: bold; background:#18407B; color:#FFFFFF;}
+.fare_rule_block div.header { font-size: 16px; font-weight: bold; color:#FFFFFF; padding: 3px 0 3px 10px; float: left; line-height: 20px; }
+.fare_rule_block div.close_this { padding: 5px 0 0 0; float: right; cursor: pointer; }
+
+.fare_rule_block div.body { float: left; height: 350px;  overflow: auto; width: 550px; font-size: 11px; padding-left: 20px; background:#FFFFFF; color:#000000; }
+
+.fare_rule_block div.body:first-letter{ text-transform:uppercase;}
+
+.fare_rule_block div.footer { text-align: center; clear: both; width: 550px; padding: 10px 5px 0px 5px; border-bottom: none; background:transparent; }
+.hand { cursor: pointer; }
+
+
+
+
+
+#home-location {background:url(../images/cozmovisa-sprite.jpg) top repeat-x; background-position:0 -24px;  height:22px;
+ border-left:solid 1px #CCCCCC; border-right:solid 1px #CCCCCC; font-size:11px;
+
+
+ }
+
+
+
+#home-location .bredcrumb { float:left; width:40%; text-transform:uppercase;  text-align:left; padding:6px 0px 0px 10px; }
+
+
+#home-location .location1{ float:right; width:40%; text-transform:uppercase; text-align:right; padding:0px 10px 0px 0px; }
+
+
+
+
+
+.butrance { height:26px; line-height:26px;background:url(../images/narrow-search.jpg); color:#fff; text-align:center;
+            
+             border: solid 1px #0e3f7e; border-radius:4px; cursor:pointer; font-weight:bold; padding: 0px 4px 0px 4px;
+             
+         
+         
+         
+              }
+
+
+ 
+ 
+ #footer .connet-with-us { float:right; width:150px; 
+ }
+
+
+#footer {   background:#1c498a ;  /*background:url(../images/cozmovisa-sprite.jpg); background-position:bottom;*/  text-align:center; 
+
+
+font-size:12px; color:#ccc; text-decoration:none; text-transform:none; height:28px; font-family:Century; margin:auto; width:996px;
+padding:8px 0px 0px 0px;
+
+    }
+
+
+
+.frright {
+    float: right;
+    padding-right: 10px;
+}
+
+.frright01 {
+    float: left;
+    padding-left: 10px;
+}
+
+.ns-h3 { background:#1c498a ;   font-size:13px; color:#fff; padding: 3px 3px 3px 10px;  font-weight:bold }
+
+.navbar { /*background:url(../images/cozmovisa-sprite.jpg) top repeat-x;*/background:#1c498a ; height:20px; padding-top:4px; }
+
+
+.user-panel { float:right; width:23%; text-align:right; padding-right:10px; color:#FFFFFF; font-size:13px; font-family:Tahoma; }
+
+
+.user-panel span { color:#ffcc00;   padding-right:1px;font-family:Tahoma; }
+
+.menu { float:left; width:75%; }
+
+.user-panel a { padding-left:5px; color:#FFFFFF; border-left:solid 0px #4d74ac;font-family:Tahoma;  font-size:13px;  }
+
+
+
+
+
+
+.grid1012 { border:solid 1px #ccc; border-top:none; }
+
+
+.heading2012 { background:url(../images/cozmovisa-sprite.jpg); background-position:0 -51px; font-size:11px; font-weight:bold; color:#fff; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC; font-family:Tahoma; height:17px;  }
+
+
+
+
+
+.normal-heading { background:url(../images/cozmovisa-sprite.jpg); background-position:0 -51px; font-size:11px; font-weight:bold; color:#fff; 
+padding:3px 10px 2px 10px;  font-family:Tahoma; height:17px;  }
+
+
+.bbb-01 { background:url(../images/cozmovisa-sprite.jpg); background-position:0 -51px; font-size:11px; font-weight:bold;  }
+
+
+.bbb-01 a { color:White;    }
+
+
+.fon201 { color:#000; font-family:Arial; font-size:14px;     }
+
+
+.pad3-2{ padding:4px 0px 4px 0px;color:#333; font-size:11px; text-align:left;    }
+
+
+.link-hite {   }
+
+.inputfz{color:#000000;font-size:8.8pt; width:409px; height:15px; background-color:#EFEFEF;border:solid 1px skyblue;color:#2F2F2F;
+         
+ width:396.5px\0/IE9;
+         
+         }
+         
+         
+
+
+.inputkhna{color:#000000;font-size:8.8pt; width:409px; height:15px;border:solid 1px skyblue;  color:#000000
+       ;width:396.5px\0/IE9;     
+           
+           
+           }
+
+
+
+
+
+
+
+
+.td2012 { font-size:11px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC;
+
+ text-transform:uppercase; font-family:Verdana, Helvetica, sans-serif;    }
+
+
+.focus2012 { font-size:11px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:uppercase;
+
+  }
+
+
+.gry1 {background:url(../images/defgr1.jpg) top; background-repeat:repeat-x;
+
+
+
+.td2012-n { font-size:12px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC; text-transform:uppercase; font-family:Verdana, Helvetica, sans-serif;   }
+
+
+.focus2012-n { font-size:12px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:uppercase;
+
+  }
+
+
+
+.td2012-s { font-size:11px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC;  font-family:Verdana, Helvetica, sans-serif; text-transform:capitalize;  }
+
+
+.focus2012-s { font-size:11px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:capitalize;
+
+  }
+
+
+.grid1012 .none { border-right:none; }
+
+
+
+

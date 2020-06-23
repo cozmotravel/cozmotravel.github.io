@@ -1,0 +1,698 @@
+
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+/*Adding Style For AdminVisaQueue ...26/09/2015*/
+.fleft { float:left !important;}
+.italic, .optional
+{
+    font-style: italic;
+}
+
+.star-red, .red-color, .font-red
+{
+	color:Red;
+}
+.width-100{    width: 100%;}
+.clear
+{
+	clear:both;
+}
+.search-popup-child{    width: 230px;}
+.fright {  float:right !important;}
+.hand{    cursor: pointer;}
+.margin-top-2
+{
+margin-top: 2px;
+}
+.width-70
+{
+    width: 70px;
+}
+input.text
+{
+    font-family: Verdana;
+    font-size: 11px;
+    padding: 0px;
+}
+.width-300
+{
+	width:300px;
+}
+.padding-5
+{
+    padding: 5px;
+}
+.center
+{
+    text-align: center;
+}
+
+/*Adding Style for ViewBookingForVisa on 26/09/2015*/
+.heading_h3 { font-size:10pt; font-weight:bold   }
+.margin-left-15{ margin-left: 15px;}
+.font-12
+{
+ font-size:12px;
+}
+.fnt12 { font-size:12px;}
+.underline{
+    text-decoration: underline;
+}
+
+.width-600{
+    width:600px;
+}
+.full-width {
+	width:100%;
+}
+.bold
+{
+    font-weight: bold;
+}
+.left-child-width, .width-45
+{
+    width: 45px;
+}
+.width-160
+{
+    width:160px;
+}
+.text-right {text-align: right;}
+.width-185{
+	width:185px;
+}
+.dotted-border
+{
+    border: dotted 1px gray;
+}
+.light-gray-back{    background: #fff;    color:#0A496E;}
+
+.contract-heading
+{
+    width: 170px;
+}
+
+.contract-heading label {
+  float:left;
+  color:#777;
+}
+.padding-block{    padding:10px 5px;}
+.ticket-left-block{	width: 100px;}
+.ticket-middle-parent{    width:335px;}
+.width-720 {
+  width:720px;
+}
+.margin-left-30
+{
+    margin-left:30px;
+}
+/* Specific to example two */
+
+#example-two .list-wrap { background: #eee; padding: 10px; margin: 0 0 15px 0; }
+
+#example-two ul { list-style: none }
+#example-two ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; list-style-type:none; }
+
+
+
+#example-two ul li a:hover { background: #333; color: white; }
+#example-two ul li:last-child a { border: none; }
+
+#example-two .nav { overflow: hidden; }
+#example-two .nav li { float: left; margin: 0 5px 0 0; list-style-type:none; }
+#example-two .nav li.last { margin-right: 0; }
+
+
+#example-two .nav li a { display: block; /*background:url(../images/tab-noactive.jpg) repeat-x!important;*/ 
+                         
+color:#fff ; font-size: 12px; text-align: center; border: 0; background:#1c498a;
+
+ font-weight:bold;   padding: 0px 10px 0px 10px; height:24px; line-height:24px;   }
+
+
+
+
+#example-two li a.current,#example-two li a.current:hover  
+{
+	color: black; background:url(../images/tab-active.jpg) repeat-x!important; list-style-type:none;}
+
+#example-two .nav li a:hover, #example-two .nav li a:focus { background:#1c498a; text-decoration:none}
+
+
+/*Visa B2B*/
+
+.b2b_visa_form{}
+
+.cal_head { float: left;  float: left; font-size: 17px; font-weight: bold; line-height: 25px; width: 100%; margin-top:10px;}
+
+
+
+
+
+
+
+
+.myuploadcontrol {
+                         
+      background-color:#fff;
+    
+       border: 1px solid #7F9DB9;
+     
+     
+      
+                         
+                          }
+
+.cal_head span { float: left; width: auto; padding-left: 5px; font-weight: normal; }
+
+.login { width: 99%; float: left; padding: 5px; }
+.login .parent {float: left; line-height: 18px; margin-bottom: 5px; margin-left: 5px; margin-top: 5px; position: relative; width: 755px; }
+.login .parent ol { list-style-position: outside; margin-left: 20px; padding: 5px; text-align: justify; }
+
+.login .parent p { width: 99%; float: left; padding: 3px 0px; /*Change for login section : 6px 5px*/ }
+
+.login .parent p label { width: 140px; float: left; line-height: 18px; font-weight: bold; color: #333; }
+.login .parent p span { float: left; padding-right: 5px; }
+.login .parent p span.term { font-size: 11px; color: Red; }
+.select_wt { width: 120px !important; }
+.label_wt { width: 163px !important; }
+.login .parent p span .input_wd { width: 130px; float: left; font-size: 12px; }
+.login .parent p span .input_wd1 { width: 138px; float: left; font-size: 12px; }
+.login .parent p label a { font-size: 11px; text-decoration: none; color: #046486; }
+.login .parent p label a:hover { text-decoration: underline; }
+.login .parent p dfn { float: left; width: 49%; margin-right: 6px; }
+.login .parent p dfn img { vertical-align: middle; margin-top: 3px; }
+.width_98 { width: 98% !important; }
+.pddetail img { vertical-align: inherit; }
+.pddetail { width: 100%; float: left; padding: 8px 0; background: #fff; font-weight: bold; color: #03ace8; }
+.agent_login { width: 376px !important; overflow: hidden; float: none !important; margin: 30px auto 30px auto; }
+/*Added by pankaj for styling grid 14 oct 2010*/
+.grid_view {  border:collapse;}
+.grid_view th { padding:4px; font-size:12px; background:#275EAE; color:#fff; font-weight:bold; border:solid 1px #ccc;}
+
+.grid_view td { padding:4px; border:solid 1px #ccc ;}
+
+.grid_view td a:link,.grid_view td a:visited,.grid_view td a:active { text-decoration:underline;}
+
+.grid_view td a:hover {text-decoration:none !important;}
+
+.grid_view td table { float:right;}
+.grid_view td table td { float:left; margin-right:2px;}
+.grid_view td table td span{color:#C0CFD1;}
+.grid_view td table td a:link,.grid_view td table td a:visited,.grid_view td table td a:active {color:#0B93E1 !important; text-decoration:none !important;}
+
+
+
+
+
+/*Added by pankaj for view booking for visa*/
+.view_booking_visa { float:left; width:99%; position:relative;}
+.view_booking_visa span.rw{ float:left; width:100%; margin-bottom:10px;}
+.view_booking_visa span.rw label{ float:left; width:100px; font-weight:bold; font-size:12px; margin-right:7px;}
+.view_booking_visa span.rw em{ float:left;}
+.view_booking_visa span.rw em.cal { margin-left:-20px; cursor:pointer; padding-top:9px;}
+.view_booking_visa span.rw input { width:120px; border:solid 1px #c0c0c0; padding:4px;}
+.view_booking_visa span.rw select { width:130px; border:solid 1px #c0c0c0; padding:2px;}
+.width67 {width:67px;}
+.text_cozmo_b2b_align{ text-align:center; width:217px;}
+.logo_cozmo { float:left; margin:7px 0 0 5px;}
+#menu { float:left; padding:4px 0;}
+.lh19 { line-height:19px !important;}
+.margin_rt10 { margin-right:10px;}
+.black { color:#000;}
+
+
+.cz_popup {
+left:443px;
+position:absolute;
+top:4px;
+width:420px;
+}
+.cz_popup1 {
+left:190px;
+position:absolute;
+z-index:20;
+
+width:420px;
+}
+.pop_container {
+height:400px;
+overflow-x:scroll;
+overflow-y:scroll;
+width:400px;
+}
+.cal_headPopUp {
+background:url("./images/head_bg.gif") repeat-x scroll 0 0 transparent;
+border-bottom:1px solid #73C0DC;
+color:#0B6B8E;
+float:left;
+font-size:17px;
+font-weight:bold;
+line-height:25px;
+width:100%;
+}
+
+
+.airfare_calender {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #73C0DC;
+    float: right;
+    width: 413px;
+}
+.airfare_calender .cal_head {
+   
+   
+    border-bottom: 1px solid #ccc; background:#275eae;
+    color: #fff;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top:0px;
+    width: 100%;
+}
+
+.pop_cont {
+    float: left;
+    width: 378px;
+}
+.pop_cont p {
+    float: left;
+    padding: 3px;
+    width: 95%;
+}
+.pop_cont p label {
+    float: left;
+    font-weight: bold;
+    width: 150px;
+}
+.pop_cont p span {
+    float: left;
+}
+.pop_cont p.imgarea {
+    border: 1px solid #EEEEEE;
+    padding: 8px;
+}
+
+/*Added by pankaj for to resolve UI Issues 06 dec  2010*/
+.width150 { width:150px;}
+.font14 { font-size:14px !important;}
+.margin_top5 { margin-top:5px !important;}
+
+
+/* Add by Santosh For new Page of visa Queue*/
+.PassengerDetails_form{}
+.PassengerDetails_form .colum h1{ margin:0; padding:0; font-size:15px; margin-bottom:5px; padding-bottom:5px; padding-left:5px; border-bottom:1px solid #999;}
+.PassengerDetails_form .colum{width:753px; float:left; padding:5px 0; margin-bottom:5px; border:1px dotted #ccc;}
+.passenger_Edit{ float:right; margin-top:-27px; margin-right:10px;}
+.PassengerDetails_form p.pdCol{ float:left; width:135px; margin:0; padding:0;}
+.PassengerDetails_form .TopCol{ float:left; width:100%; padding-left:5px; margin-bottom:7px;}
+.PassengerDetails_form p.pdCol label{ float:left; width:100%; margin-bottom:5px;}
+.PassengerDetails_form p.pdCol input{ float:left; width:125px;}
+.PassengerDetails_form p.pdCol input.imgwd{ float:left; width:101px;}
+.PassengerDetails_form p.pdCol select{ float:left; width:125px;}
+.PassengerDetails_form p.pdCol textarea{ float:left; width:195px;}
+
+/* Added by pankaj for View visa */
+.total-top { padding-top:4px; border-top:solid 1px #c0c0c0; font-weight:bold; margin-top:5px;}
+.navigation { float: right; width: 35%; margin: 0; padding: 0px 0px 3px 0; font-size: 11px; color: #444; text-align: right; }
+.navigation span {}
+.navigation span a { color: #0C4163; text-decoration: none; border:1px solid #C0CFD1; padding:2px 5px; margin-left:2px;}
+.navigation span a:hover { text-decoration: underline; }
+.navigation span.selected{ color: #0C4163; text-decoration: none; border:1px solid #C0CFD1; padding:2px 5px; margin-left:2px; background:#eee;}
+.visa_PaymentInfo_pop 
+{ float:none !important; background:#ffffff; width:700px; border:solid 1px #ccc; display: block; position: absolute; right:5px; text-align: left; z-index: 100;}
+
+
+.visa_PaymentInfo_top {width:690px; color:#fff; /*Background:#275EAE;*/ font-size:16px; font-weight:bold; padding:5px;}
+
+
+
+/*css by firoz 25th june*/
+
+#headerB2b  {  background: url("images/header_cozmovisa.jpg") top no-repeat; height:39px;  }
+
+ :root #middle-container  {
+  height: 466px;  
+}
+
+
+
+
+#footerB2b { background:url(
+             images/cozmovisa-sprite.jpg); background-position:bottom;  text-align:center;
+
+font-size:12px; color:#ccc; text-decoration:none; text-transform:none; height:28px; font-family:Century;
+padding:8px 0px 0px 0px; width:996px; margin:auto;
+
+    }
+
+
+
+.frright {
+    float: right;
+    padding-right: 10px;
+}
+
+.frright01 {
+    float: left;
+    padding-left: 10px;
+}
+
+
+.navbarb2b {background:url(images/cozmovisa-sprite.jpg) top repeat-x; height:20px; padding-top:4px; }
+
+
+
+
+.login_fz1  { background: url(images/login_fz1.jpg) top center no-repeat; width:360px; height:280px; margin:auto; padding:80px 60px 30px 60px;
+
+
+
+}  
+
+
+.box_visaquee{
+
+
+   display: block;  font-size:11px;
+  
+  
+  -webkit-border-radius: 4px; background:#f5f5f5;  
+  
+   padding:8px 8px 8px 8px;  
+	-moz-border-radius: 4px;
+	border-radius: 4px;  width:942px; margin-top:7px;  margin-bottom:7px;
+	
+	 border: solid 1px #ccc;
+	 /*height:50px;*/
+  
+  
+}
+
+
+
+
+.heading-suigi { font-size:12pt; color:#275eae; font-family:Segoe UI; font-weight:bold }
+
+.heading-suigi-normal { font-size:12pt;  font-family:Segoe UI; font-weight:bold }
+
+.suigi-link { font-size:12pt;  font-family:Segoe UI;  }
+
+.suigi-link a { font-size:12pt;  font-family:Segoe UI;  }
+
+a.normallink  { font-size:12px;  }
+
+
+a.normallink_li  { font-size:12px;  margin-right:10px; }
+
+.agency_module {
+  width:490px;
+  margin:0px;
+  padding:0px;
+  border:solid 1px #000;
+  background:#fff;
+  position:absolute;
+  z-index:1000;
+  /*top:260px;
+  left:250px;*/
+}
+.right-block, .review-booking-passenger-parent-width, .search-left-block, .width-200 /*adding by chandan*/
+/*.right-block */
+{
+    width: 200px;
+}
+
+.font-11, .optional
+{
+    font-size: 11px;
+}
+
+
+.border-bottom{border-bottom: solid 1px #c0c0c0;}
+.sub-header{ width:754px;}
+.border-top{ border-top: solid 1px #c0c0c0;}
+
+.font-16{ font-size: 16px;}
+.font-14{font-size: 14px;}
+.margin-bottom-2{margin-bottom: 2px;}
+.margin-right-20{ margin-right: 20px;}
+.margin-top-5{margin-top: 5px;}
+.margin-top-3{margin-top: 3px;}
+.margin-top_-3{margin-top: -3px;}
+.margin-top-20{margin-top: 20px;}
+.margin-bottom-20{ margin-bottom: 20px;}
+.margin-top-10{margin-top: 10px;}
+.margin-top-8{margin-top: 8px;}
+.margin-bottom-10{margin-bottom: 10px;}
+.margin-right-70{margin-right: 70px;}
+.width-440 {width :440px;}
+.margin-left-5{margin-left: 5px;}
+.margin-right-5{margin-right: 5px;}
+.content-block-width, .width-750 /* for new agent */{width: 750px;}
+.right-align{text-align: right;}
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+
+.box_b2bdesign{
+
+
+  line-height: 0px; display: block;  font-size:11px;
+  
+  
+  -webkit-border-radius: 4px; background:#fff;  padding:8px 8px 8px 8px;  
+	-moz-border-radius: 4px;
+	border-radius: 4px; margin:7px;  
+	
+	 border: solid 1px #ccc;
+  
+  
+}
+
+
+.blue-heading2 { background:#275EAE; color:#fff; padding: 3px 0px 2px 0px; font-weight:bold; font-size:13px  }
+
+
+.box_16mtop{
+ 
+
+  display: block; color: #000; font-size:11px;
+  
+  
+  -webkit-border-radius: 4px; background:#e8edf3;  padding:8px 8px 8px 8px;  
+	-moz-border-radius: 4px;
+	border-radius: 4px;  width:942px; margin-top:7px;  margin-bottom:7px; 
+	
+	 border: solid 1px #ccc;
+
+}
+
+
+
+.inp_border18 {  height:18px; border: solid 1px #7f9db9; background:#FFFFFF;  }
+
+.inp_lists {  height:20px; border: solid 1px #7f9db9; background:#FFFFFF;  }
+
+.lblbold12 { font-size:12px; font-weight:bold; font-family:Arial }
+.light-grey-bg{  background-color: #f5f5f5;}
+.border-y{border: solid 1px #808080;}
+.padding-bottom-10
+{
+    padding-bottom:10px;
+}
+.search-popup-parent /* added by shahab*/, .width-240 /* for payment processing */
+{ width: 340px;}
+.border-bottom-black{    border-bottom: solid 2px #808080;}
+
+.coz_content_container { float: left; width: 100%; margin: 10px 0 0; }
+.row_div { float: left; width: 965px; margin-bottom: 10px; }
+.search_box_main { float: left; width: 754px; border: solid 1px #368dab; background: #90d1e9; position:relative;}
+.border_no { border: none !important; }
+.width_100 { width: 100% !important; }
+.margin_left_10 { margin-right: 10px; }
+.visa_receipt{ width:100%; float:left; border-bottom:1px solid #aaa; padding-bottom:10px; margin-bottom:5px;}
+.visa_receipt p { float:left; width:99%;}
+.visa_receipt p b{ float:left; width:120px;}
+.visa_receipt p span{ padding-left:15px; float:none!important;}
+
+.visa_receipt_txt{ font-size:12px;}
+.visa_applicant_name{ background:#eee; width:100%; padding:5px; margin:20px 0;}
+.visa_applicant_name th,.visa_applicant_name th { text-align:left; padding:3px 0;} 
+.visa_applicant_name th{font-weight:bold;}
+.border_top { border-top: 1px dotted #aaa; }
+.width-190{
+	width:190px;
+}
+ .border-top-black
+ {
+    border-top:solid 1px #000000;
+ }
+ .white-bg { background-color:White;}
+.b2b_visa_form{}
+
+.cal_head { float: left;  float: left; font-size: 17px; font-weight: bold; line-height: 25px; width: 100%; margin-top:10px;}
+.cal_head span { float: left; width: auto; padding-left: 5px; font-weight: normal; }
+
+.login { width: 99%; float: left; padding: 5px; }
+.login .parent {float: left; line-height: 18px; margin-bottom: 5px; margin-left: 5px; margin-top: 5px; position: relative; width: 755px; }
+.login .parent ol { list-style-position: outside; margin-left: 20px; padding: 5px; text-align: justify; }
+
+.login .parent p { width: 99%; float: left; padding: 3px 0px; /*Change for login section : 6px 5px*/ }
+
+.login .parent p label { width: 140px; float: left; line-height: 18px; font-weight: bold; color: #333; }
+.login .parent p span { float: left; padding-right: 5px; }
+.login .parent p span.term { font-size: 11px; color: Red; }
+.select_wt { width: 120px !important; }
+.label_wt { width: 163px !important; }
+.login .parent p span .input_wd { width: 130px; float: left; font-size: 12px; }
+.login .parent p span .input_wd1 { width: 138px; float: left; font-size: 12px; }
+.login .parent p label a { font-size: 11px; text-decoration: none; color: #046486; }
+.login .parent p label a:hover { text-decoration: underline; }
+.login .parent p dfn { float: left; width: 49%; margin-right: 6px; }
+.login .parent p dfn img { vertical-align: middle; margin-top: 3px; }
+
+/*------------------------------------------------ for visa queue --------------------------------------------*/
+.passenger_Edit{ float:right; margin-top:-27px; margin-right:10px;}
+.agency_summary {
+  width:490px;
+  float:left;
+  margin:0px;
+  padding:0px;
+  background:#1C498A;
+  color:#fff;
+}
+.agency_summary h1 {
+  margin:0px;
+  float:left;
+  padding:4px 0px 5px 10px;
+  font-size:12px;
+  font-weight:bold;
+}
+.agency_summary span {
+  margin:0px;
+  float:right;
+  padding:4px 5px 4px 0px;
+  font-size:13px;
+  height:16px;
+}
+.agency_summary label {
+  margin:0px;
+  float:left;
+  padding:0px 5px 0px 0px;  
+  font-weight:normal;
+}
+.agency_summary span label b{ float:right; width:auto; margin-right:4px;}
+.agency_summary span label em{ float:right; width:auto; margin-right:4px;}
+.agency_summary span label img{ float:right; }
+.agency_module {
+  width:490px;
+  margin:0px;
+  height:147px;
+  padding:0px;
+  border:solid 1px #000;
+  background:#fff;
+  position:absolute;
+  z-index:100;
+  left:11px;
+}
+.agency_holder_content {
+  width:270px;
+  float:left;
+  margin:0px;
+  padding:10px 0px 10px 10px;
+}
+.agency_holder_content p {
+  width:100%;
+  float:left;
+  margin:0px;
+  padding:0px;
+  font-size:13px;
+  font-weight:bold;
+}
+.agency_holder_content span {
+  width:265px;
+  float:left;
+  margin:0px;
+  padding:3px 0px 0px 0px;
+  font-size:12px;
+}
+.agency_holder_content span label {
+  width:55px;
+  float:left;
+  margin:0px;
+  padding:0px;  
+  font-size:12px;
+}
+.agency_holder_content span i {
+  float:left;
+  margin:0px;
+  padding:0px;
+  font-style:normal; 
+  font-size:12px; 
+}
+.agency_address_content {
+  width:190px;
+  float:left;
+  margin:0px;
+  padding:10px 10px 10px 10px;
+}
+.agency_address_content p {
+  width:100%;
+  float:right;
+  margin:0px;
+  padding:0px;
+  font-size:12px;
+  font-weight:bold;
+  text-align:right;
+}
+.agency_address_content span {
+  width:100%;
+  float:right;
+  margin:0px;
+  padding:3px 0px 0px 0px;
+  font-size:12px;
+}
+.agency_address_content span label {
+  float:right;
+  margin:0px;
+  padding:0px;
+  color:#666;
+  font-weight:normal;
+  font-size:12px;
+}
+.agency_address_content span em {
+  float:right;
+  margin:0px;
+  padding:0px;
+  font-style:normal;
+}
+.agency_address_content span em a  {
+  text-decoration:underline;
+  color:#0000ff;
+}
+.agency_address_content span em a:hover {
+  text-decoration:none;
+}
+
+.PassengerDetails_form{}
+.PassengerDetails_form .colum h1{ margin:0; padding:0; font-size:15px; margin-bottom:5px; padding-bottom:5px; padding-left:5px; border-bottom:1px solid #999;}
+.PassengerDetails_form .colum{width:753px; float:left; padding:5px 0; margin-bottom:5px; border:1px dotted #ccc;}
+.passenger_Edit{ float:right; margin-top:-27px; margin-right:10px;}
+.PassengerDetails_form p.pdCol{ float:left; width:135px; margin:0; padding:0;}
+.PassengerDetails_form .TopCol{ float:left; width:100%; padding-left:5px; margin-bottom:7px;}
+.PassengerDetails_form p.pdCol label{ float:left; width:100%; margin-bottom:5px;}
+.PassengerDetails_form p.pdCol input{ float:left; width:125px;}
+.PassengerDetails_form p.pdCol input.imgwd{ float:left; width:101px;}
+.PassengerDetails_form p.pdCol select{ float:left; width:125px;}
+.PassengerDetails_form p.pdCol textarea{ float:left; width:195px;}

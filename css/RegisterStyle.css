@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.bgRegister { background-image:url(../images/bg08012019.jpg); background-repeat:no-repeat; background-position:top right; min-height:412px;   }
+
+ul.topLinks  { margin:0px; padding:0px; margin-top:20px; }
+
+ul.topLinks li { list-style-type:none; display:inline; margin-right:10px; color:#fff; }
+
+ul.topLinks li a   { 
+font-size:15px; text-transform:uppercase; text-decoration:none; color:#fff; font-weight:500; 
+border:solid 1px #929395;  padding:4px 10px 4px 10px; display:inline-block;  
+
+}
+  
+
+ul.topLinks li a:hover  {  color:#fff; border:solid 1px #fff;  }
+
+ul.topLinks li.callUs  { float:right; padding-top:4px;    }
+
+.topHeader { border-bottom: solid 1px #929395; padding-bottom:10px; }
+
+.growYourbusiness img { margin: 84px 0px 0px 0px } 
+
+.createYourAccount { 
+
+background-image:url(../images/create-your-account.png); 
+
+
+background-repeat:no-repeat; 
+background-position:top center;
+min-width:290px; max-width:290px; height:298px;
+float:right; margin-top:16px; 
+}
+
+.createYourAccount { padding: 0px 20px 0px 20px; margin-top:28px;    }
+
+.createYourAccount h2 { 
+text-align:center; 
+ font-size:22px; display:block;
+
+ margin: 14px 0px 14px 0px; 
+
+  }
+
+
+
+  
+
+.createYourAccount .normalTrav a {  color: #154f91; font-size:12px!important;  }
+
+.createYourAccount .normalTrav  {  color: #ccc; }
+
+
+.createYourAccount input { border-radius:0px!important; }
+
+.createYourAccount .form-control, .form-control-element { border-radius:0px!important; }
+
+.createYourAccount .icon-holder { 
+border: solid 1px #ccc;  
+border-right: none;  
+
+border-radius:0px!important; 
+
+ }
+ 
+ .createYourAccount .btn { background-color:#666666; border: solid 1px #000; color:#fff; }
+ 
+ .createYourAccount .btn:hover {  color:#fff!important; }
+ 
+ 
+ .createYourAccount .form-control-holder .icon-holder span { font-size:inherit } 
+ 
+ img.newLogo { margin-top:-1px }
+
+
+@media all and (max-width:768px)   
+
+{
+	
+	
+ul.topLinks  {  margin-top:20px; }
+
+ul.topLinks li {   margin-right:0px;  width:100%;    }
+
+ul.topLinks li a   { margin-bottom:10px;  } 
+
+.growYourbusiness { display:none  }
+
+.TestimonialWrapper .clientBox  { min-height:none!important; margin-bottom:0px!important; }
+	                                                                   
+.createYourAccount { float:inherit; margin:auto;  }
+
+
+ img.newLogo { margin-top:-1px; height:40px; }
+ 
+ .footerReg ul {  margin-bottom:20px!important;  }
+ 
+ 
+}
+
+
+.headingRegister h2 { font-weight:700; text-align:center; margin: 10px 0px 16px 0px;    }
+
+.headingRegister .saprater { width:100px; height:2px; background-color:#82c650; margin:auto;  }
+
+.RegisterWrapper { margin-top: 20px;  text-align:center; padding-bottom:50px; }
+
+.RegisterWrapper .productWrap  {  height:250px;    }
+.RegisterWrapper  a.productWrap  { color:#333;  height:250px; display:block;     }
+
+.RegisterWrapper  a.productWrap:hover  { color:#585656;       }
+
+.RegisterWrapper .productWrap h3 { font-weight:700;  font-size:22px; margin: 10px 0px 16px 0px   }
+
+.RegisterWrapper .productWrap .productIcons span { width:80px; height:80px; border-radius: 50%; border: solid 1px #ccc; display:inline-block; margin:auto;    }
+
+
+.RegisterWrapper .productIcons span img { width:64px; height:64px;  display:inline-block; margin-top:8px;  }
+
+.RegisterWrapper .productWrap p { font-size:16px; }
+
+.TestimonialWrapper { margin-bottom:10px; font-size:15px; }
+
+.TestimonialWrapper .clientBox  {
+	
+min-height:274px; background-color:#fff; 
+border-radius: 4px;
+padding: 0px 24px 20px 24px;  
+margin-top:64px; 
+margin-bottom:30px;
+-webkit-box-shadow: 1px 1px 12px 0px rgba(204,204,204,0.99);
+-moz-box-shadow: 1px 1px 12px 0px rgba(204,204,204,0.99);
+box-shadow: 1px 1px 12px 0px rgba(204,204,204,0.99);
+                                                                    
+}
+
+
+.TestimonialWrapper  .clientBox .clientSpeaks { min-height:110px; margin-top:30px;  }
+
+.TestimonialWrapper .clientBox .clientName { font-weight:700; margin-top:20px; color:#6dc046;   }
+
+.TestimonialWrapper .clientBox .s1  { display:inline-block; float:left;     }
+
+.TestimonialWrapper .clientBox .s2  { display:inline-block; float:right;     }
+
+.TestimonialWrapper .clientBox img.clientImage  { width:80px; height:80px; border-radius:50%; margin-top:-34px;    }
+
+.TestimonialWrapper .clientBox img.clientComma  { width:33px; margin-bottom:-50px;      }
+
+.partnerWrap   {
+
+border-bottom: solid 1px #ccc; border-top: solid 1px #ccc; 
+ padding:4px; margin-top:20px;  margin-bottom:20px; 
+ 
+ }
+ 
+
+.partnerWrap label { display: inline-block; border: solid 1px #ccc; padding: 2px 2px 2px 2px; width:118px; text-align:center; }
+
+.partnerWrap label img { height:46px;    }
+
+.footerReg { background: #666; padding: 30px 0px 10px 0px; margin-top:40px;    }
+ 
+.footerReg h4 {  color:#fff; text-transform:uppercase; font-size:16px;    }
+ 
+.footerReg ul { margin: 0px; padding:0px;  }
+ 
+.footerReg ul li { list-style-type:none; margin-top:10px;  }
+ 
+.footerReg ul li a { color:#ccc;  font-size:14px; }
+  
+.footerReg ul li a:hover { color:#fff;  }
+   
+.footerReg ul li a span { color:#8a8686; font-size:7px;    }
+  
+   
+    
+.footerReg .copyRights   { 
+  
+  	text-align:center; font-size:12px; text-transform:uppercase; 
+    color:#ccc; padding-top:10px; border-top: solid 1px #8a8686; margin-top:20px;      
+   } 
+      
+
+ 
+.bgRegister .menu-button-sm .navbar-toggle span {
+    background: #fff!important;
+}
+
+
+
+.bgRegister .menu-button-sm .navbar-toggle[aria-expanded="true"] span {
+    background: #fff!important;
+}
+
+
+a.back-to-top {
+	display: none;
+	width: 40px;
+	height: 40px;
+	 text-align:center; 
+	 line-height:34px; 
+	 color:#fff; 
+	 font-size:26px;
+	 position: fixed;
+	z-index: 999;
+	right: 10px;
+	bottom: 10px;
+	background: #8a8686;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px; 
+}
+
+
+
+a:hover.back-to-top {
+	color: #ccc;
+}
+
+
+
+
+
+/*corporate Login/Register*/
+
+.topHeader2 { background:#fff; padding: 16px 0px 16px 0px   }
+
+.topHeader2 .call { font-size: 18px; float:right;  }
+.topHeader2 .call span { font-weight: 500;   }
+
+
+.bgRegister2 { background-image:url(../images/bg09012019.jpg); background-repeat:no-repeat;   background-color:#ccc; 
+background-position:top left; min-height:339px;    }
+
+
+
+
+.bgRegister2 .title { margin-top:110px;    } 
+
+
+
+.bgRegister2 .title h1  { font-size:40px; font-weight: 700; text-transform:uppercase; color:#fff; }
+
+.bgRegister2 .title h2  { font-size:25px; font-weight: normal; color:#fff; }
+
+
+.createYourAccount2 { 
+
+
+min-width:298px; 
+max-width:298px; 
+float:right; 
+margin-top:16px; 
+background-color:#fff; 
+border-radius:4px;
+
+
+}
+
+.createYourAccount2 { padding: 20px 6px 20px 6px; margin-bottom:26px;  margin-top:26px;     }
+
+
+
+
+.createYourAccount2 input { border-radius:0px!important; }
+
+.createYourAccount2 .form-control, .form-control-element { border-radius:0px!important; }
+
+.createYourAccount2 .icon-holder { 
+border: solid 1px #ccc;  
+border-right: none;  
+
+border-radius:0px!important; 
+
+ }
+ 
+ .createYourAccount2 .btn { background-color:#24b9f1; border: solid 1px #1e9bca; color:#fff; }
+ 
+ .createYourAccount2 .btn:hover {  color:#fff!important; }
+ 
+ 
+ .createYourAccount2 .form-control-holder .icon-holder span { font-size:inherit } 
+ 
+.createYourAccount2 .logocctm  { display:block; padding-right:20px; border-right: solid 1px #ccc; }
+
+
+
+ .createYourAccount2 .linkChanger  { line-height:36px; font-weight:500  }
+
+
+.createYourAccount2 .normalTrav a {  color: #154f91; font-size:12px!important;  }
+
+.createYourAccount2 .normalTrav  {  color: #ccc; }
+
+
+
+.headingRegister2 h2 { font-weight:700; text-align:center; margin: 10px 0px 16px 0px;    }
+
+.headingRegister2 .saprater { width:100px; height:2px; background-color:#ccc; margin:auto;  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:768px)   
+
+{
+
+.topHeader2 .call{ display:none    }
+
+.topHeader2 { text-align: center;     }
+
+
+
+.bgRegister2 .title { margin-top:10px;   text-align:center; color: #fff;  }	
+
+
+.bgRegister2 .title h1  { font-size:24px; font-weight: 700; text-transform:uppercase }
+
+.bgRegister2 .title h2  { font-size:18px; font-weight: normal; }	
+
+
+.createYourAccount2 { 
+
+float:inherit; 
+margin:auto; margin-top:0px;
+
+}
+
+
+.bgRegister2 {  background-image:inherit;  background-color:#404042; padding-bottom:20px;      }
+
+
+}
+
+
+.footer_sml_bizz {  background-color:#666!important; color:#fff; padding: 10px 0px 10px 0px; margin-top:40px; 
+                    text-align:center; font-size:12px; position:fixed; bottom:0px; left:0; right:0;  }
+
+
+.heading_bizz { background-image:url(../images/bg09012019.jpg); background-repeat:no-repeat;   background-color:#ccc; 
+background-position:top left; padding: 70px 0px 70px 0px; margin-bottom:20px;    }
+
+.heading_bizz h2 { color:#fff; }
+
+.innerPage2 { padding-bottom:70px; }
+
+
+
+
+
+
+
+
+
+
+

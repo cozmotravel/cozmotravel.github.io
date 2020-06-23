@@ -1,0 +1,109 @@
+/*
+	Mosaic - Sliding Boxes and Captions jQuery Plugin
+	Version 1.0.1
+	www.buildinternet.com/project/mosaic
+	
+	By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
+	Released under MIT License / GPL License
+*/
+
+* {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+}
+
+
+.details h4 { color:#fff; padding-top:10px;    }
+
+.details h6 { color:#fff; text-align:center; padding:10px;    }
+
+.details input { margin-top:20px; background:#ff6600; padding: 10px 10px 10px 10px; color:#fff; font-weight:bold }
+
+
+
+				
+				
+				
+/*General Mosaic Styles*/
+.mosaic-block {
+	float:left;
+	position:relative;
+	overflow:hidden; margin-top:-100px;
+	width:100%;
+	height:220px; 
+	margin: 14px 0px 10px 0px; 
+	background:#111 url(../img/progress.gif) no-repeat center center;
+	border:1px solid #fff;
+	box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	
+
+}
+
+	.mosaic-backdrop {
+		display:none;
+		position:absolute;
+		top:0;
+		height:100%;
+		width:100%;
+		
+		
+		background:#023958;
+	}
+	
+	.mosaic-overlay {
+		display:none;
+		z-index:5;
+		position:absolute;
+		width:100%;
+		height:100%;
+		background:#fff; 
+	}
+	
+		/*** Custom Animation Styles (You can remove/add any styles below) ***/
+		.circle .mosaic-overlay {
+			background:url(../img/hover-magnify.png) no-repeat center center;
+			opacity:0;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+			filter:alpha(opacity=00);
+			display:none;
+		}
+		
+		.fade .mosaic-overlay {
+			opacity:0;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+			filter:alpha(opacity=00);
+			background:url(../img/bg-black.png);
+		}
+		
+		
+		
+		.bar .mosaic-overlay {
+			bottom:-100px;
+			height:100px;
+			background:url(../img/bg-black.png);
+		}
+		
+		
+		
+		.bar2 .mosaic-overlay {
+			bottom:-50px;
+			height:100px;
+			opacity:0.8;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			filter:alpha(opacity=80);
+		}
+		
+			.bar2 .mosaic-overlay:hover {
+				opacity:1;
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+				filter:alpha(opacity=100);
+			}
+		
+		.bar3 .mosaic-overlay {
+			top:-100px;
+			height:100px;
+			background:url(../img/bg-black.png);
+		}
+		/*** End Animation Styles ***/

@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+
+	
+H2 {
+/*font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    line-height: 19px; color:#333;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 30px; */
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+SPAN {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; text-decoration:none; color:#3A3ADD;
+}
+
+
+A:hover { text-decoration:underline;
+	 
+}
+
+
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; BORDER-TOP: 0px; 	    BORDER-RIGHT: 0px
+}
+IMG {
+	LINE-HEIGHT: 0; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-SIZE: 0px
+}
+.float_L {
+	WIDTH: auto; FLOAT: left
+}
+.float_R {
+	WIDTH: auto; FLOAT: right
+}
+
+.clear {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+}
+
+
+BODY { padding:0px; margin:0px;  text-decoration:none; text-transform:none; color:#333; font: 12px Arial, Helvetica, sans-serif; background:#FFFFFF;    
+}
+
+
+
+#main_container {  height:auto; margin:auto; width:996px;     }
+
+
+
+
+.login-container {  
+      
+border-left: solid 1px #CCCCCC;border-bottom:none; border-right: solid 1px #CCCCCC; border-top:none ;
+ padding:10px; padding-top:0px; height:510px;
+ 
+
+ 
+ }
+
+
+:root .login-container {
+  height: 520px\9;
+}
+
+
+
+#header { background:url(../images/vmsb2b-bg-right.png) no-repeat right; 
+ height:72px; border: solid 1px #ccc; border-top:none; padding-left:14px;   }
+ 
+ .logolog { padding: 10px 0px 0px 10px; }
+
+
+
+
+.headinglogin { font-size:29px; background:url(../images/login-key.png) left no-repeat;
+
+  font-weight:400; padding: 0px 0px 0px 50px; line-height:50px; margin-bottom:10px;    }
+  
+  
+
+.padbot10 { padding-bottom:10px; }
+.pad-top10 { padding-top:10px; }
+
+
+
+
+
+.user-box {  padding:20px; width:318px; height:257px; background:#f7f7f7; margin:auto; border-radius:6px;
+box-shadow: 4px 4px 5px #ccc;  
+
+ }
+
+.ub-margin { padding-top:40px; }
+
+.view-app { color:#8b8888; text-align:center; font-size:11px; padding-top:20px; }
+
+
+
+ .login-button { 
+padding:7px 0px 7px 0px; 
+color:#FFFFFF;  text-align:center; display:block; width:100%; font-size:13px; font-weight:bold;
+
+
+ border-radius:4px;
+border: solid 1px #0a2f65; cursor:pointer;
+
+
+
+   }
+   
+  .login-text {  
+  
+background:url(../images/vms-login-icon.png) no-repeat #fff; background-position: 0px 4px; 
+  
+  width:90%;  padding:6px 1% 6px 9%; border: solid 1px #79dafb;
+  
+  
+    } 
+    
+    
+      .forgo-text {  
+  
+background:#fff; background-position: 0px 4px; 
+  
+  width:98%;  padding:6px 1% 6px 1%; border: solid 1px #79dafb;
+  
+  
+    } 
+	
+	  .login-pass {  
+  
+background:url(../images/vms-login-icon.png) no-repeat #fff; background-position: 0px -35px; 
+  
+  width:90%;  padding:6px 1% 6px 9%; border: solid 1px #79dafb;
+  
+  
+    } 
+    
+    
+    .forgoPwd {  padding:20px; width:250px; height:130px; background:#fff; margin:auto; border-radius:6px;
+box-shadow: 4px 4px 5px #ccc; position:absolute; right: 360px; top:170px;  }
+	
+	
+	
+
+	

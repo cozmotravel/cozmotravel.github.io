@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+
+	
+H2 {
+/*font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    line-height: 19px; color:#333;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 30px; */
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+SPAN {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; text-decoration:none; color:#3A3ADD;
+}
+
+
+A:hover { text-decoration:underline;
+	 
+}
+
+
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; BORDER-TOP: 0px; 	    BORDER-RIGHT: 0px
+}
+IMG {
+	LINE-HEIGHT: 0; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-SIZE: 0px
+}
+.float_L {
+	WIDTH: auto; FLOAT: left
+}
+.float_R {
+	WIDTH: auto; FLOAT: right
+}
+
+.clear {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+}
+
+
+BODY { padding:0px; margin:0px;  text-decoration:none; text-transform:none; color:#333; font: 12px Arial, Helvetica, sans-serif; background:#FFFFFF;    
+}
+
+
+
+
+
+
+
+#main_container {  height:auto; margin:auto; width:996px;     }
+
+
+
+
+
+.login-container {  
+      
+border-left: solid 1px #CCCCCC;border-bottom:none; border-right: solid 1px #CCCCCC; border-top:none ;
+ padding:10px; padding-top:0px; height:569px; *height:569px;
+ 
+
+ 
+ }
+
+
+:root .login-container {
+  height: 550px\9;
+}
+
+
+
+
+
+#home-location {background:url(../images/cozmovisa-sprite.jpg) top repeat-x; background-position:0 -24px;  height:27px;
+ border-left:solid 1px #CCCCCC; border-right:solid 1px #CCCCCC; font-size:11px;
+
+
+ }
+
+
+
+#home-location .bredcrumb { float:left; width:40%; text-transform:uppercase;  text-align:left; padding:6px 0px 0px 10px; }
+
+
+#home-location .location { float:right; width:40%; text-transform:uppercase; text-align:right; padding:6px 10px 0px 0px; }
+
+
+
+.ar15bold { font-family:Arial; font-weight:bold; color:#333; font-size:15px; padding-bottom:5px; }
+
+
+.lin21 { line-height:21px; font-size:13px; }
+
+
+.info-container { } 
+
+.info-container h3 {font-family:Arial; font-weight:lighter; color:#333; font-size:16px; padding-bottom:5px; color:#FF0000; } 
+
+
+.info-container li { list-style-type:none; background: url(../images/li2.jpg) left no-repeat; padding-left:20px; margin-bottom:5px; } 
+
+
+
+
+
+#footer { background:url(../images/cozmovisa-sprite.jpg); background-position:bottom;   text-align:center;
+
+
+font-size:12px; color:#ccc; text-decoration:none; text-transform:none; height:28px; font-family:Century;
+padding:8px 0px 0px 0px;
+
+    }
+
+
+
+.frright {
+    float: right;
+    padding-right: 10px;
+}
+
+
+
+
+.navbar {background:url(../images/cozmovisa-sprite.jpg) top repeat-x; height:20px; padding-top:4px; }
+
+
+.user-panel { float:right; width:20%; text-align:right; padding-right:10px; color:#FFFFFF; font-size:11px; font-family:Tahoma; }
+
+
+.user-panel span { color:#ffcc00; font-weight:bold; border-right:solid 1px #4d74ac; padding-right:5px; }
+
+.menu { float:left; width:75%; }
+
+.user-panel a { padding-left:5px; color:#FFFFFF;  }
+
+
+
+
+
+
+.grid1012 { border:solid 1px #ccc; border-top:none; }
+
+
+.heading2012 { background:url(../images/cozmovisa-sprite.jpg); background-position:0 -51px; font-size:11px; font-weight:bold; color:#fff; 
+padding:3px 10px 5px 10px; border-right: solid 1px #CCCCCC; font-family:Tahoma;  }
+
+
+.pad3-2{ padding:3px 0px 2px 0px; font-family:Dotum; color:#333;   }
+
+
+
+
+
+
+
+
+
+.td2012 { font-size:11px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC; text-transform:uppercase; font-family:Verdana, Helvetica, sans-serif;   }
+
+
+.focus2012 { font-size:11px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:uppercase;
+
+  }
+
+
+
+
+.td2012-n { font-size:12px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC; text-transform:uppercase; font-family:Verdana, Helvetica, sans-serif;   }
+
+
+.focus2012-n { font-size:12px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:uppercase;
+
+  }
+
+
+
+.td2012-s { font-size:11px; font-weight:normal; color:#333; 
+padding:3px 10px 3px 10px; border-right: solid 1px #CCCCCC;  font-family:Verdana, Helvetica, sans-serif; text-transform:capitalize;  }
+
+
+.focus2012-s { font-size:11px; font-weight:normal; 
+color:#333; 
+padding:3px 10px 3px 10px; 
+
+
+border-right: solid 1px #CCCCCC; 
+background:url(../images/sprite2.png);background-position:0 -100px;
+
+font-family:Verdana, Helvetica, sans-serif; text-transform:capitalize;
+
+  }
+
+
+.grid1012 .none { border-right:none; }
+
+
+
+
+
+.b01 {
+   
+    border:none; background:url(../images/b01.jpg) top left no-repeat; height:25px; width:78px;
+    color: #000;
+    cursor: pointer;
+    font-size:12px; font-family:Calibri; text-transform:uppercase; text-align:left;
+    font-weight: bold;
+    padding:0px 0px 0px 6px;
+}
+
+
+.b02 {
+   
+    border:none; background:url(../images/b02.jpg) top left no-repeat; height:25px; width:78px;
+    color: #000;
+    cursor: pointer;
+    font-size:12px; font-family:Calibri; text-transform:uppercase; text-align:left;
+    font-weight: bold;
+    padding:0px 0px 0px 6px;
+}
+
+
+
+.b03 {
+   
+    border:none; background:url(../images/b03.jpg) top left no-repeat; height:25px; width:78px;
+    color: #000;
+    cursor: pointer;
+    font-size:12px; font-family:Calibri; text-transform:uppercase; text-align:left;
+    font-weight: bold;
+    padding:0px 0px 0px 6px;
+}
+
+
+.b04 {
+   
+    border:none; background:url(../images/b04.jpg) top left no-repeat; height:25px; width:78px;
+    color: #000;
+    cursor: pointer;
+    font-size:12px; font-family:Calibri; text-transform:uppercase; text-align:left;
+    font-weight: bold;
+    padding:0px 0px 0px 6px;
+}
+
+.b02:hover { color:#b62605 }.b03:hover { color:#b62605 } .b04:hover { color:#b62605 } .b01:hover { color:#b62605 }
+
+
+
+:root #latest-updates {
+  height: 269px\9;  background:url(../images/sprite-i89.jpg) top left no-repeat;
+  
+
+  
+  }
+  
+
+.win.gecko #latest-updates {
+  height:289px; background:url(../images/sprite-login.jpg) top left no-repeat;
+}
+
+
+
+
+
+#leftgrid { padding-top:14px; width:522px; float:left;  }
+
+
+#latest-updates { height:289px; background:url(../images/sprite-login.jpg) top left no-repeat; }
+
+
+#login-panel { height:208px; background:url(../images/sprite-login.jpg) top right no-repeat; }
+
+#rightgrid { width:442px; float:right }
+
+
+#slider-designer { height:256px; background:url(../images/sprite-login.jpg) bottom left no-repeat; margin-top:10px; 
+ }
+
+
+
+:root #important-notes {
+  height: 331px\9; background:url(../images/sprite-i89.jpg) bottom right no-repeat;
+}
+
+
+
+
+.win.gecko #important-notes {
+  height:351px;  background:url(../images/sprite-login.jpg) bottom right no-repeat; margin-top:10px;
+}
+
+
+
+
+#important-notes { height:351px;  background:url(../images/sprite-login.jpg) bottom right no-repeat; margin-top:10px; }
+
+.iwrper { padding:40px 15px 15px 15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#333; }
+
+.ghjgio { padding-left:5px!important; }
+
+
+
+.iwrper p { padding-bottom:10px; }
+
+
+.lwrper { padding:63px 15px 15px 15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#333;   }
+
+
+.g1f1 { font-size:12px; color:#5c676b; font-family:Arial, Helvetica, sans-serif;    }
+
+
+.inpbox { background:url(../images/input-bg.jpg) top repeat-x; width:290px; border:solid 1px #ccc; padding:5px; }
+
+.inpbox:focus { background:#ffffcc; border:solid 1px #ccc;  }
+
+
+
+.inpbox01 { background:url(../images/input-bg.jpg) top repeat-x; width:97%; border:solid 1px #ccc; padding:5px; }
+
+.inpbox01:focus { background:#ffffcc; border:solid 1px #ccc;  }
+
+
+
+
+
+.wwrper { padding:33px 15px 15px 15px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#333;  line-height:16px;  }
+
+.wwrper { padding-bottom:8px; }
+
+.wwrper span {   color:#666;  }
+
+.wwrper p { padding-bottom:4px; }
+
+.login-butt { width:87px;  background:url(../images/login_bbbutton.jpg) center no-repeat; text-align:center; 
+              
+              
+              font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#eaeef2; font-variant:normal;
+   border:none; cursor:pointer; height:28px; line-height:28px;  font-weight:bold;  text-shadow: 0.1em 0.1em 0.05em #333   
+              
+              
+                 }
+                 
+.login-butt:hover { color:#fff; 
+              
+              
+                 }
+
+
+
+.login_fz1  { background: url(../images/login_fz1.jpg) top center no-repeat; width:360px; height:280px; margin:auto;
+
+
+padding:80px 60px 30px 60px;
+
+
+
+}  
+
+
