@@ -1,0 +1,35 @@
+
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Specific to example two */
+
+#example-two .list-wrap { background: #eee; padding: 10px; margin: 0 0 15px 0; }
+
+#example-two ul { list-style: none }
+#example-two ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; list-style-type:none; }
+
+
+
+#example-two ul li a:hover {  color: white; background:none; }
+#example-two ul li:last-child a { border: none; }
+
+#example-two .nav { overflow: hidden; }
+
+#example-two .nav li { float: left; margin: 0 5px 0 0; list-style-type:none; }
+
+#example-two .nav li.last { margin-right: 0; }
+
+
+#example-two .nav li a { display: block; /*background:url(../images/tab-noactive.jpg) repeat-x!important;*/ 
+                         
+color:#fff ; font-size: 12px; text-align: center; border: 0; /*background:#1c498a;*/
+
+ font-weight:bold;   padding: 0px 0px 0px 0px; height:24px; line-height:24px;   }
+
+
+
+
+#example-two li a.current,#example-two li a.current:hover { color:Black;   }
+
+/*#example-two .nav li a:hover, #example-two .nav li a:focus { background:#1c498a; text-decoration:none}*/
