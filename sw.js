@@ -19,3 +19,9 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
     console.log("Service Worker activating.");
 });
+self.addEventListener("fetch", event => {
+    console.log(`Request of ${event.request.url}`);
+
+    // default behaviour: request the network
+    event.respondWith(fetch(event.request));
+});
