@@ -3,10 +3,11 @@
     "short_name": "CT B2B",
     "theme_color": "#60c231",
     "background_color": "#60c231",
-    "display": "fullscreen",
+    "display": "standalone",
     "orientation": "portrait",
     "Scope": "/",
     "start_url": "/",
+    "prefer_related_applications": false,
     "icons": [{
             "src": "images/icons/icon-72x72.png",
             "sizes": "72x72",
