@@ -54,7 +54,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="scripts/bootstrap.min.js"></script>
 
-
+    <style>
+        @media all and (display-mode: standalone) {
+            #install_button {
+                display: none;
+            }
+        }
+    </style>
     <link href="css/toastr.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="build/js/main.min.js"></script>
@@ -1001,6 +1007,11 @@
                 deferredPrompt = null;
             });
         }
+        window.addEventListener('appinstalled', (evt) => {
+            // Log install to analytics
+            console.log('INSTALL: Success');
+            installButton.disabled = true;
+        });
     </script>
 
 
