@@ -2,7 +2,7 @@
     "name": "Travtrolley",
     "short_name": "CT B2B",
     "theme_color": "#60c231",
-    "background_color": "#60c231",
+    "background_color": "#000",
     "display": "standalone",
     "orientation": "portrait",
     "Scope": "/",
