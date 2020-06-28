@@ -7,7 +7,12 @@
 // });
 
 const CACHE_NAME = "V1";
-const STATIC_CACHE_URLS = ["/", "/build/css/main.min.css", "/build/js/main.min.js"];
+const STATIC_CACHE_URLS = [
+    "/",
+    "/index.html",
+    "/build/css/main.min.css",
+    "/build/js/main.min.js"
+];
 
 self.addEventListener("install", event => {
     console.log("Service Worker installing.");
