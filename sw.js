@@ -8,7 +8,7 @@
 
 const CACHE_NAME = "V1";
 const STATIC_CACHE_URLS = [
-    '/offline.html',
+    '/index.html',
 ];
 
 self.addEventListener("install", event => {
