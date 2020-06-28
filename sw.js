@@ -9,6 +9,9 @@
 const CACHE_NAME = "V1";
 const STATIC_CACHE_URLS = [
     '/UploadReceipt.html',
+    '/scripts/Menu/query2.js',
+    '/build/js/dropzone.js',
+    '/build/js/main.min.js',
 ];
 
 self.addEventListener("install", event => {
