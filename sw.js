@@ -8,7 +8,7 @@
 
 const CACHE_NAME = "V1";
 const STATIC_CACHE_URLS = [
-    '/index.html',
+    '/UploadReceipt.html',
 ];
 
 self.addEventListener("install", event => {
